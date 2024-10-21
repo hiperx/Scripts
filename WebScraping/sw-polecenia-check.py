@@ -5,8 +5,8 @@ from netmiko import ConnectHandler
 username = getpass.getuser()
 
 # Dane urządzenia
-hostname = "poz1-co-acc-sw15"
-password = "Magda2020!"
+hostname = "poznan-sw15"
+password = "password"
 
 # Parametry połączenia z urządzeniem
 device = {

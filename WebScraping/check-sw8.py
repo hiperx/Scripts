@@ -12,7 +12,7 @@ from netmiko import ConnectHandler
 username = getpass.getuser()
 
 # Hasło do urządzeń
-passwd = "Magda2020!"
+passwd = "password"
 
 # Otwórz plik wynikowy
 with open("wynik-check-sw8.txt", "w") as result_file:

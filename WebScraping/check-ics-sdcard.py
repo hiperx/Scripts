@@ -1,6 +1,6 @@
 #
 # Pobieranie danych z ICS-SW w celu sprawdzenia czy nie zostala tam karta SD
-# Versja robocza
+
 #
 #
 
@@ -11,7 +11,7 @@ from netmiko import ConnectHandler
 username = getpass.getuser()
 
 # Dane urządzenia
-passwd = "Magda2020!"
+passwd = "password"
 
 
 # Pobierz listę hostów z pliku

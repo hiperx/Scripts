@@ -1,7 +1,6 @@
 #
 # Pobieranie danych z ISA 
-# DZialajaca wersja !!!!
-#
+
 #
 
 import getpass
@@ -12,7 +11,7 @@ from netmiko import ConnectHandler
 username = getpass.getuser()
 
 # Hasło do urządzeń
-passwd = "Magda2020!"
+passwd = "password"
 
 # Pobierz listę hostów z pliku
 with open("lista-dev-isa.txt", "r") as file:

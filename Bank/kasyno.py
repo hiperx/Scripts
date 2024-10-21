@@ -18,7 +18,7 @@ import platform
 import time 
 import datetime
 from getpass import getpass
-import Bank.database_bank as database_bank
+import database_bank as database_bank
 from pathlib import Path
 
 try:

@@ -1,6 +1,5 @@
 #
 # Pobieranie danych z SW ( ACC, RSW, IE2000)
-# DZialajaca wersja !!!!
 #
 #
 
@@ -13,7 +12,7 @@ from netmiko import ConnectHandler
 username = getpass.getuser()
 
 # Hasło do urządzeń
-passwd = "Magda2020!"
+passwd = "passsword"
 
 # Pobierz listę hostów z pliku
 with open("lista-dev.txt", "r") as file:

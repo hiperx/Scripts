@@ -38,7 +38,7 @@ hn = 'device-switch-sw1'
 
 
 u = 'user'
-pa = 'Piter2010!'
+pa = 'password'
 
 print(sn)
 print(hn)
