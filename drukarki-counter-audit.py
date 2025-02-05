@@ -18,7 +18,7 @@ from pysnmp.hlapi import *
 def read_snmp_data(host, oid):
     errorIndication, errorStatus, errorIndex, varBinds = next(
         getCmd(SnmpEngine(),
-               CommunityData('AmznSNMPR3@d', mpModel=0),
+               CommunityData('TEST', mpModel=0),
                UdpTransportTarget((host, 161)),
                ContextData(),
                ObjectType(ObjectIdentity(oid)))
